@@ -1,0 +1,24 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* Simple page reset */
+	margin:0;
+	padding:0;
+}
+/* Setting default text color, background and a font stack */
+body{	
+	background:#333 url(bg.jpg) repeat top left;
+	color:#dddddd;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#fancyClock{
+	margin:0px auto;
+	height:600px;
+	border:0px solid #111111;
+	width:200px;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+

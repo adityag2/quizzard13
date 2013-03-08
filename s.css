@@ -1,0 +1,36 @@
+#div2
+{
+height:240px;
+width:350px;
+position:relative;
+animation:mymove 5s infinite;
+animation-direction:alternate;
+-moz-animation:mymove 5s infinite;
+-moz-animation-direction:alternate;
+-webkit-animation:mymove 5s infinite;
+-webkit-animation-direction:alternate;
+}
+@keyframes mymove
+{
+0%{background-image:url('1.jpg');left:0px;top:-80px;}
+25%{background-image:url('1.jpg');left:440px;top:-80px;}
+50%{background-image:url('3k.jpg');left:440px;top:0px;}
+75%{background-image:url('3k.jpg');left:0px;top:0px;}
+100%{background-image:url('1.jpg');left:0px;top:-80px;}
+}
+@-moz-keyframes mymove
+{
+0%{background-image:url('1.jpg');left:0px;top:-80px;}
+25%{background-image:url('1.jpg');left:440px;top:-80px;}
+50%{background-image:url('3k.jpg');left:440px;top:0px;}
+75%{background-image:url('3k.jpg');left:0px;top:0px;}
+100%{background-image:url('1.jpg');left:0px;top:-80px;}
+}
+@-webkit-keyframes mymove
+{
+0%{background-image:url('1.jpg');left:0px;top:-80px;}
+25%{background-image:url('1.jpg');left:440px;top:-80px;}
+50%{background-image:url('3k.jpg');left:440px;top:0px;}
+75%{background-image:url('3k.jpg');left:0px;top:0px;}
+100%{background-image:url('1.jpg');left:0px;top:-80px;}
+}
